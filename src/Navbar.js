@@ -1,7 +1,5 @@
 import React from 'react';
 import "./Navbar.css";
-import logo from "./images/Logo.png";
-import Button from '@material-ui/core/Button';
 
 function Navbar() {
   return (
