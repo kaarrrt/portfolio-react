@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.pc{
+    position: absolute;
+    width:90%;
+    left:6%;
+    opacity: 0.8;
+}
+.pimg{
+    position: absolute;
+    width:65%;
+    height:28%;
+    left:19%;
+    top:6%;
+    opacity: 0.75;
+    border-radius: 9px 9px 0 0;
+}
+.card-ctn{
+    background-color: #1b1b28;
+    width:30%;
+    height:40%;
+    position: relative;
+    margin: 45px;
+    border-radius: 10px;
+}
+.card-ctn:hover{
+    box-shadow:2px 1px 10px #4b56706a;
+    z-index: 2;
+}
+.title{
+    position: absolute;
+    top:43%;
+    font-family: "Bebas Neue", sans-serif;
+    color:#EFE9F4;
+    left:10%;
+}
+.ghub{
+    position: absolute;
+    left:40%;
+    top:60%;
+    background-color: #1b1b28;
+    width: 20%;
+    height:30%;
+    border-style: none;
+}

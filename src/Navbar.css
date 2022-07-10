@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.contain{
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+}
+.projects{
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    left:41%;
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+
+    
+}
+.contact{
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    left:51%;
+    top:36%;
+    font-size: large;
+        background-color: black;
+            color: aliceblue;
+}
