@@ -8,22 +8,26 @@
 .pimg{
     position: absolute;
     width:65%;
-    height:28%;
+    height:29%;
     left:19%;
-    top:6%;
+    top:5%;
     opacity: 0.75;
     border-radius: 9px 9px 0 0;
 }
 .card-ctn{
-    background-color: #1b1b28;
+    background-color: #1a1d21   ;
     width:30%;
     height:40%;
     position: relative;
     margin: 45px;
     border-radius: 10px;
+    transform: scale(1);
+    transition: all ease-in-out 0.4s;
 }
 .card-ctn:hover{
-    box-shadow:2px 1px 10px #4b56706a;
+    box-shadow:3px 3px 60px #11111123;
+        transform: scale(1.025);
+        transition: all ease-in-out 0.3s;
     z-index: 2;
 }
 .title{
@@ -31,14 +35,16 @@
     top:43%;
     font-family: "Bebas Neue", sans-serif;
     color:#EFE9F4;
+    font-weight: 200;
     left:10%;
 }
 .ghub{
     position: absolute;
-    left:40%;
-    top:60%;
-    background-color: #1b1b28;
-    width: 20%;
-    height:30%;
+    left:35%;
+    top:65%;
+    background-color: #adadc3;
+    width: 25%;
+    border-radius: 3px;
+    height:10%;
     border-style: none;
 }
