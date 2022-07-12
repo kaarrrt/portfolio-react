@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .project{
-    background-color: rgb(35, 34, 47);
+    background-color: #124559;
     position:absolute;
     left:0;
 
@@ -17,12 +17,12 @@
     height: 150vh;
     flex-wrap: 1;
     justify-content: space-evenly;
-    background-color: rgb(35, 34, 47);
+    background-color: #124559;
     border-radius: 020px 20px 20px 20px;
 
 }
 .ptitle{
-    color: #EE6352;
+    color: #ff7d00;
     position: absolute;
     font-size: 500%;
     z-index: 1;

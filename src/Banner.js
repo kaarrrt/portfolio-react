@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react'
-import sidelogo from "./images/home-main.svg";
-import banner from './images/pen.jpg';
+
 import Insta from './images/icons/instagram.svg'
 import Typewriter from "typewriter-effect";
 import Github from './images/icons/github.svg'
 import Linked from './images/icons/linkedin.svg'
-import black from './images/black.jpg'
 import bannerpc from './images/bannerpc3.png';
 import './Banner.css';
-import { LinkedIn } from '@mui/icons-material';
 function Banner() {
   return (
     <div className="ctn">
