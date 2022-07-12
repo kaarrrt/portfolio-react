@@ -30,9 +30,9 @@ function Banner() {
 </span>
 <img src={bannerpc} alt="" className="bannerpc" />
 <div className="social-icons">
-  <div className="insta"><a href="https://www.instagram.com/kaarrttt/"><img src={Insta}></img></a></div>
-  <div className="github"><a href="https://www.linkedin.com/in/karthik-madhusudan-025363196/"><img src={Github}></img></a></div>
-  <div className="linked"><a href="https://github.com/kaarrrt"><img src={Linked}></img></a></div>
+  <div className="insta"><a href="https://www.instagram.com/kaarrttt/"><img src={Insta} alt="insta"></img></a></div>
+  <div className="github"><a href="https://github.com/kaarrrt"><img src={Github} alt="github"></img></a></div>
+  <div className="linked"><a href="https://www.linkedin.com/in/karthik-madhusudan-025363196/"><img src={Linked} alt="linked"></img></a></div>
 </div>
 
   
