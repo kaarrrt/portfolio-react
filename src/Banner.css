@@ -8,7 +8,7 @@
     position:absolute;
     right:47%;
     top:21.5%;
-    background-color: #ff7d00;
+    background-color: #E85D75;
     width: max-content;
     transform: rotate(-90deg);
     border-radius: 3px;
@@ -19,11 +19,11 @@
     top: 18%;
     z-index: 1;
     width: max-content;
-    background-color: #ff7d00;
+    background-color: #E85D75;
     border-radius: 3px;
 }
 .name{
-    color: #ffecd1;
+    color: #242423;
     position: absolute;
     width: max-content;
     font-size: 80px;
@@ -36,7 +36,7 @@
     font-size: 50px;
     position:absolute;
     margin: 0 auto;
-    color: #FF7B9C;
+    color: #333533;
     font-family: "Bebas Neue", sans-serif;
     top:41%;
     left:53.7%;
@@ -44,7 +44,7 @@
 .bannerpc{
     position:absolute;
     left:6%;
-    top:-10%;
+    top:-15%;
     width:40%;
 }
 .social-icons{
@@ -91,6 +91,8 @@
 .knowme{
     position: absolute;
     top:85%;
+    background-color: #333533;
+    color:#E8EDDF;
     left:84%;
     border-radius: 5px;
     height: 06%;

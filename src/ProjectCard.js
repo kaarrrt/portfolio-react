@@ -8,7 +8,7 @@ function ProjectCard(props) {
             <img src={pc} className="pc" alt="pc"/>
             <img src={props.img} className="pimg" alt="img"/>
         <h1 className="title">{props.title}</h1>
-        <button className="ghub"><img src={git} alt="" /></button>
+        <button className="ghub"><a href={props.link}><img src={git} alt="" /></a></button>
         <p className="desc"></p>
     </div>
   )
