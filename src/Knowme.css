@@ -1,0 +1,18 @@
+#knowme-ctn{
+    /* background-color: rgb(208, 255, 0); */
+    height:70vh;
+    position: relative;
+}
+.knowme-line {
+    width: 100%;
+    height: 0.5%;
+    position: absolute;
+    top: 7%;
+    border-radius: 50%;
+    background-color: #242423;
+}
+.heading{
+    position:absolute;
+    left:3%;
+    background-color: #E8EDDF;
+}

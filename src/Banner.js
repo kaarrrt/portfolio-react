@@ -5,6 +5,7 @@ import Github from './images/icons/github.svg'
 import Linked from './images/icons/linkedin.svg'
 import bannerpc from './images/bannerpc3.png';
 import './Banner.css';
+import {HashLink as Link} from 'react-router-hash-link'
 function Banner() {
   return (
     <div className="ctn">
@@ -35,8 +36,8 @@ function Banner() {
   <div className="linked"><a href="https://www.linkedin.com/in/karthik-madhusudan-025363196/"><img src={Linked} alt="linked"></img></a></div>
 </div>
 
-  
-  <button className="knowme">Know me</button>
+  <Link to="#knowme-ctn" className="knowme" smooth>Know me</Link>
+
     </div>
 
   )

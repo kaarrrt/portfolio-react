@@ -1,33 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 #project{
-    background-color: #E8EDDF;
-    position:absolute;
+    /* background-color: #343631; */
     left:0;
-
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
+    margin-top: 1%;
+    position: relative;
 }
-.project-ctn{
-    position:absolute;
-    width: 80%;
-    left:12%;
-    margin-top: 3%;
-    display: flex;
-    height: 70vh;
-    flex-wrap: 1;
-    justify-content: space-evenly;
-    background-color: #E8EDDF;
-    border-radius: 020px 20px 20px 20px;
+.img-overlays{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    right:0;
+}
+.ecomm{
+    position: absolute;
+    width:35%;
+    height:50%;
+    left:10%;
+    top:30%;
+    border-radius: 7px;
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25);
+}
+.cabs{
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    left: 51%;
+    top: 35.5%;
+    border-radius: 7px;
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25);
 
+}
+.overlay1{
+    position:absolute;
+    background-color: rgba(18, 24, 24, 0.5);
+    width: 35%;
+    height: 46%;
+    opacity: 0;
+    top: 34.5%;
+    left:10%;
+    border-radius: 0 0 8px 8px;
+    transition: opacity 0.2s ease-in;
+}
+.overlay2 {
+    position: absolute;
+    background-color: rgba(18, 24, 24, 0.5);
+    width: 30%;
+    height: 37.5%;
+    opacity: 0;
+    top:38%;
+    left: 51%;
+    border-radius: 0 0 8px 8px;
+    transition: opacity 0.3s ease-in-out;
+}
+.overlay2:hover{
+    opacity: 1;
+}
+.git-btn{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:9%;
+    height:16%;
+    background-color: #CFDBD5;
+    border-radius: 80%;
+    border: 1px solid rgba(30, 133, 133, 0);
+}
+.git-image{
+    position:absolute;
+    height: 70%;
+    width: 70%;
+    top:16%;
+    left:15%;
+}
+.overlay1:hover{
+    opacity: 1;
 }
 .ptitle{
     color: #242423;
     position: absolute;
     font-size: 500%;
     z-index: 1;
-    top:24%;
-    left:2%;
+    background-color: #E8EDDF;
+    left:5%;
     font-family: "Bebas Neue", sans-serif;
-    transform: rotate(-90deg);
+}
+.project-line{
+    width: 100%;
+    height:0.5%;
+    position: absolute;
+    top:6%;
+    border-radius: 50%;
+    background-color:#242423;
 }

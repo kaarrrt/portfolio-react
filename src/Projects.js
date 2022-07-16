@@ -1,19 +1,30 @@
 import React from 'react'
 import './Projects.css'
-import ecomm from './images/ecomm.png'
-import ProjectCard from './ProjectCard.js'
+import ecomm from './images/clone.png'
+import git from './images/icons/github.svg';
+import cabs from './images/cabs.png';
 function Projects() {
   return (
     <div id="project">
         <div className="ptitle">Projects</div>
-        <div className="project-ctn">
-          <ProjectCard img={ecomm} title={"Ecommerce Development"} link={"https://github.com/kaarrrt/amazon-clone.git"}/>
-          <ProjectCard img={ecomm} title={"Cab Management System"} link={"https://github.com/kaarrrt/DBMS-project.git"}/>
-          <ProjectCard img={ecomm} title={"Ecommerce Development"}/>
+        <div className='project-line'></div>
+        <div className="img-overlays">
+          <img src={ecomm} alt="" className="ecomm"  id='ecom'/>
+          <div className="overlay1">
+            <a href='https://github.com/kaarrrt/amazon-clone' ><button className="git-btn"><img src={git}  className="git-image"/></button></a>
+          </div>
+          <img src={cabs} alt="" className="cabs" />
+          <div className="overlay2">
+            <a href="https://github.com/kaarrrt/DBMS-project"><button className="git-btn" ><img src={git}  className="git-image"/></button></a>
+          </div>
+          
         </div>
         
-    </div>
+      </div>
+        
   )
 }
+
+
 
 export default Projects
