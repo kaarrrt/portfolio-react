@@ -15,7 +15,7 @@ function Projects() {
           </div>
           <img src={cabs} alt="" className="cabs" />
           <div className="overlay2">
-            <a href="https://github.com/kaarrrt/DBMS-project"><button className="git-btn" ><img src={git}  className="git-image" alt="cabs-image"/></button></a>
+            <a href="https://github.com/kaarrrt/DBMS-project"><button className="git-btn" ><img src={git}  className="git-image" alt="cabs"/></button></a>
           </div>
           
         </div>
