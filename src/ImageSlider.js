@@ -7,7 +7,7 @@ const ImageSlider = () => {
   const [image,setImage]=useState(0);
   const length=ProjectImage.length;
   const nextSlide=()=>{
-    setImage(image==length-1?0:image+1);
+    setImage(image===length-1?0:image+1);
   }
   return (
     <>
@@ -16,13 +16,13 @@ const ImageSlider = () => {
     <img src={right} alt="right" className="right" onClick={()=>nextSlide()} />
     {ProjectImage.map((slide,index)=>{
       return(
-        <div className={index==image?'slide-active':'slide' } key={index}>
-          {index==image && (<img src={slide.image} alt="" className="images"/>)}
+        <div className={index===image?'slide-active':'slide' } key={index}>
+          {index===image && (<img src={slide.image} alt="" className="images"/>)}
           
         </div>
       )
     })}
-    <a href={image==0?"https://github.com/kaarrrt/amazon-clone":"https://github.com/kaarrrt/DBMS-project"}>
+    <a href={image===0?"https://github.com/kaarrrt/amazon-clone":"https://github.com/kaarrrt/DBMS-project"}>
       <button className="git-button"><img src={git} alt="gits" className="git-image" /></button></a>
     </div>
     </>
